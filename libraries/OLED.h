@@ -20,8 +20,11 @@ public:
 
   void setup() {
     if (!display.begin(SSD1306_SWITCHCAPVCC)) {
-      Serial.println(F("SSD1306 init failed"));
+      Serial.println(F("OLED display initialization failed"));
       while (1);
+    }
+    else{
+      Serial.println("OLED display successfully initialized")
     }
 
     drawUI();
