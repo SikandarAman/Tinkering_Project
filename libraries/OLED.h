@@ -24,7 +24,7 @@ public:
       while (1);
     }
     else{
-      Serial.println("OLED display successfully initialized")
+      Serial.println("OLED display successfully initialized");
     }
 
     drawUI();
