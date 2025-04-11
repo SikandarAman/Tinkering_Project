@@ -1,0 +1,7 @@
+-Created OLED.h to print values from MAX30100 sensor directly to the screen
+-Usable methods from the OLED.h file:
+
+setup() : Initializes the OLED screen and draws the static UI layout (labels, dividers, etc.)
+update(int bpm, int spo2): Updates both the numeric display of heart rate and SpO2, and updates the scrolling graph with a simulated BPM value
+
+- Changed the main file to show an example on how the OLED.h methods can be used
